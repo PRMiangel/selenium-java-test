@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+
+    id 'application'
+}
+
+mainClassName = 'DriverChromeLinux'
+
+dependencies {
+    compile 'org.seleniumhq.selenium:selenium-java:3.13.0'
+}
+
+repositories {
+    jcenter()
+}
